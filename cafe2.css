@@ -1,0 +1,57 @@
+body{
+
+background-size: 100% 100%;
+box-shadow: 20px 20px 10px ;
+animation: slider 20s linear infinite;
+}
+
+@keyframes slider{
+
+0%{background-image: url(io2.jpg);}
+40%{background-image: url(io15.webp);}
+80%{background-image: url(ioo1.jpg);}
+100%{background-image: url(io10.jpg);}
+
+
+}
+
+
+
+img{
+
+max-width: 250px;
+filter: grayscale(100%);
+clip-path: circle(50% at 50% 50%);
+border: 7px solid rgb(88, 44, 27);
+border-radius: 50%;
+width: 200px;
+height: 200px;
+
+}
+
+img:hover{
+
+transform: scale(1.1);
+box-shadow: brown;
+border-color: rgb(177, 38, 38);
+filter: grayscale(0);
+
+}
+
+
+.marquee{
+
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #1f1e1e;
+    padding: 10px;
+    border-radius: 100px;
+    height: 30px;
+    width: 350px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+    overflow: hidden;
+    
+    }
+
+    
